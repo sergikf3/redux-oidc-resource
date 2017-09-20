@@ -1,0 +1,11 @@
+security:
+  oauth2:
+    resource:
+      userInfoUri: https://www.googleapis.com/userinfo/v2/me
+      preferTokenInfo: false
+server:
+  port: 9000
+      
+logging:
+  level:
+    org.springframework.security: DEBUG
